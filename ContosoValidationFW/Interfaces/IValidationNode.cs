@@ -10,7 +10,7 @@ namespace ContosoValidationFW.Interfaces
  
     public interface IValidationNode
     {
-        string ValidationCode { get; set; } //EDS_RAS_VAL1 - RAS.Validation.EDS_RAS_VAL1 
+        string ValidationCode { get; set; } 
 
         bool ValidateParent { get; set; }
 
